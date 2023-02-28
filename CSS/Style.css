@@ -1,0 +1,36 @@
+p {
+    color: rgb(37, 61, 3);
+    font-size: 20px;
+}
+
+
+a {
+    color: rgb(233, 6, 6);
+}
+
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+
+body {
+    background-color: rgb(41, 161, 197);
+}
+a:hover {background-color: rgb(63, 54, 71);
+}
+
+div {
+    background-color: rgb(191, 221, 225);
+    width: bold;
+}
+
+span {color: #db5f0c;
+
+}
+
+h3 {font-family: ;
+color: maroon;
+}

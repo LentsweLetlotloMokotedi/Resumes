@@ -1,7 +1,7 @@
 header{
     font-family: 'Times New Roman', Times, serif;   
     font-size: larger;
-    background-color: rgb(105, 5, 5);
+    background-color: rgb(59, 188, 186);
     color: rgb(0, 0, 0);
     text-align: center;
         margin-left: 1%;
@@ -9,6 +9,7 @@ header{
         margin-top: 1%;
         padding-bottom: 1%; 
         padding-top: 1%;
+        padding-left: 2%;
     }
     
     p {
@@ -38,7 +39,7 @@ header{
     }
     
     div {
-        background-color: rgb(166, 55, 183);
+        background-color: rgb(208, 188, 188);
         width: 20%;
          height: 1%;
         text-align: left;
@@ -66,7 +67,7 @@ header{
     }
     
     footer{
-        background-color: rgb(64, 81, 190) ;
+        background-color: rgb(178, 181, 204) ;
     
      
     }
@@ -97,4 +98,7 @@ header{
     header{
         text-align: left;
         text-decoration-thickness: 30;
+    }
+    body{
+        background-color: bisque;
     }

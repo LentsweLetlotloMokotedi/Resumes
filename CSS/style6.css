@@ -1,8 +1,8 @@
 
 header{
+    background-image: url(../Images/resume_background_img.jpg);
     font-family: 'Times New Roman', Times, serif;   
     font-size: larger;
-    background-color: rgb(59, 188, 186);
     width: fit-content;
     height: fit-content;
     color: rgb(0, 0, 0);
@@ -43,7 +43,7 @@ header{
     }
     
     .item1{
-        background-color: rgb(208, 188, 188);
+        background-color: rgb(183, 159, 159);
         height: fit-content;
         width: fit-content;
         text-align: left;
@@ -103,7 +103,7 @@ header{
         text-decoration-thickness: 30;
     }
     body{
-        background-color: bisque;
+        background-color: rgb(163, 82, 122);
     }
     .container{
         display: flex;
@@ -112,6 +112,6 @@ header{
 
     }
     .item2{
-        padding-left: 2%;
+        padding-left: 9%;
         
     }

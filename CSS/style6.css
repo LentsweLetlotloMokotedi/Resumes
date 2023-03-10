@@ -1,11 +1,11 @@
 
 header{
-    background-image: url(../Images/resume_background_img.jpg);
+    
     font-family: 'Times New Roman', Times, serif;   
     font-size: larger;
     width: fit-content;
     height: fit-content;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
         margin-left: 1%;
         margin-right: 1%;
@@ -17,7 +17,7 @@ header{
     }
     
     p {
-        color: rgb(0, 0, 0);
+        color: rgb(206, 206, 206);
         font-size: 20px;
     }
     
@@ -28,7 +28,7 @@ header{
     
     
     h2 {
-        color: black;
+        color: rgb(255, 255, 255);
         font-family: 'Times New Roman', Times, serif;
         font-size: 150%;
     }
@@ -43,11 +43,11 @@ header{
     }
     
     .item1{
-        background-color: rgb(183, 159, 159);
+        
         height: fit-content;
         width: fit-content;
         text-align: left;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         margin-left: 1%;
         margin-right: 1%;
         margin-top: 1%;
@@ -61,7 +61,7 @@ header{
     
     h3 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(20, 8, 46);
+        color: rgb(255, 255, 255);
     }
 
     img{
@@ -69,27 +69,14 @@ header{
         border: 3px solid  white;
     }
     
-    footer{
-        background-color: rgb(178, 181, 204) ;
-    
-     
-    }
    
-     .content {
-    
-        margin-left: 1%;
-        margin-right: 1%;
-        background-color: black;
-        border-style: groove;
-        padding-left: 1%;
-        padding-right: 1%;
-     }
+   
     
     
     
     img{
         border-radius: 50%;
-        border: 3px solid rgb(0, 0, 0);
+        border: 3px solid rgb(119, 0, 0);
     }
     
     Info{
@@ -103,7 +90,7 @@ header{
         text-decoration-thickness: 30;
     }
     body{
-        background-color: rgb(163, 82, 122);
+        background-color: rgb(207, 207, 207);
     }
     .container{
         display: flex;
@@ -114,4 +101,18 @@ header{
     .item2{
         padding-left: 9%;
         
+    }
+
+    body{
+        background-image: url(../Images/resume_background_img.jpg);
+    }
+    form{
+        background-color: rgb(81, 79, 79);
+    }
+    ul{
+        color: #ffffff;
+    }
+    form{
+        text-transform: uppercase;
+        text-decoration-color: antiquewhite;
     }

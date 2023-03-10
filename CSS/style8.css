@@ -85,18 +85,13 @@ header{
         background-color: rgb(207, 207, 207);
     }
     .container{
+        background-image: url(../Images/resume_background_img.jpg);
         display: flex;
         flex-direction: row;
         justify-content: space-around;
 
     }
-    /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
-    body { background-image: url(../Images/body.jpg);
-           
-     }
     
- } 
  
  
     .item2{
@@ -112,22 +107,9 @@ header{
     ul{
         color: #ffffff;
     }
-    form{8 
+    form{
         text-transform: uppercase;
         text-decoration-color: antiquewhite;
     }
 
     
-}
-
- 
- /* Medium devices (landscape tablets, 768px and up) */
- @media only screen and (min-width: 768px) {
-    body { background-color: green; }
- } 
- 
- /* Large devices (laptops/desktops, 992px and up) */
- @media only screen and (min-width: 992px) {
-    body { background-color: yellow; }
- } 
- 

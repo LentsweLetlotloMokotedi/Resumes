@@ -1,4 +1,3 @@
-
 header{
     
     font-family: 'Times New Roman', Times, serif;   
@@ -64,15 +63,8 @@ header{
         color: rgb(255, 255, 255);
     }
 
-    img{
-        border-radius:  50%;
-        border: 3px solid  white;
-    }
     
-   
-   
-    
-    
+
     
     img{
         border-radius: 50%;
@@ -98,21 +90,44 @@ header{
         justify-content: space-around;
 
     }
+    /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    body { background-image: url(../Images/body.jpg);
+           
+     }
+    
+ } 
+ 
+ 
     .item2{
         padding-left: 9%;
         
     }
 
-    body{
-        background-image: url(../Images/resume_background_img.jpg);
-    }
+ 
+    
     form{
         background-color: rgb(81, 79, 79);
     }
     ul{
         color: #ffffff;
     }
-    form{
+    form{8 
         text-transform: uppercase;
         text-decoration-color: antiquewhite;
     }
+
+    
+}
+
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    body { background-color: green; }
+ } 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    body { background-color: yellow; }
+ } 
+ 

@@ -10,7 +10,7 @@ header{
         margin-right: 1%;
         margin-top: 1%;
         padding-bottom: 1%; 
-        padding-top: 1%;
+        padding-top: 8%;
         padding-left: 5%;
         padding-right: 5%;
     }
@@ -52,15 +52,16 @@ header{
         margin-top: 1%;
         padding-bottom: 1%; 
         padding-top: 1%;
-        padding-left: 2%;
+        padding-left: 6%;
         
     }
     
  
     
     h3 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         color: rgb(255, 255, 255);
+        font-size: larger;
     }
 
     
@@ -96,6 +97,7 @@ header{
  
     .item2{
         padding-left: 9%;
+        padding-right: 5%;
         
     }
 
@@ -114,7 +116,7 @@ header{
     
     @media (min-width: 0px) {
         .body { background-image: url(../Images/last.jpg);
-        font-family: cursive;
+        font-family: monospace;
         }
         img{
             border-radius: 0%;
@@ -124,19 +126,20 @@ header{
      }    
 
 
- /* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width: 600px) {
+ /* Small devices (portrait tablets and large phones, 650px and up) */
+@media (min-width: 650px) {
     .body { background-image: url(../Images/body.jpg);
-    font-family: 'Times New Roman', Times, serif; }
+    font-family: monospace }
     img{
         border-radius: 50%;
         width: 200px;
         height: 200px;
     }
+    .item1{font-size: larger;}
  } 
 
-     /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) {
+     /* Large devices (laptops/desktops, 900px and up) */
+@media (min-width: 900px) {
     .body { background-image: url(../Images/resume_background_img.jpg);
     font-family: monospace }
     img{
@@ -144,3 +147,9 @@ header{
         width: 250px;
         height: 320px;
  } 
+    .item1{font-size: x-large;}
+}
+footer{
+    padding-left: 3%;
+    padding-right: 3%;
+}
